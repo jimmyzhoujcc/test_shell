@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript">
+
+function setHref(){
+    location.href ='/Users/jcc/PycharmProjects/test_shell/web/hello.sh.30592016';
+}
+
+</script>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
     <!-- <p>{{id}}</p> -->
-    <p>{{a}}</p>
+    <a href='{{a}}'  target= "_self ">{{a}}</a>
     <form action="." method="get">
         <!--<input type="text" name="id">-->
         <input type="submit" name="id" value="test_shell">
     </form>
+<button onclick="setHref()">download</button>
 </body>
 </html>
